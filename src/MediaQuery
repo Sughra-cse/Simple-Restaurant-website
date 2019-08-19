@@ -1,0 +1,27 @@
+import MediaQuery from 'react-responsive';
+const Example = ()=>(
+    <div>
+    <div>Device Test!</div>
+    <Mediaquery query="(min-device-width:1224px)">
+     <div>you are a desktop or laptop</div>
+    <Mediaquery query="(min-device-width:1824px)">
+    <div> you also have a huge screen</div>
+    </MediaQuery>
+    <MediaQuery query="(max-width:1224px)">
+    <div>you are sized like a tablet or mobile phone though</div>
+    </MediaQuery>
+    </MediaQuery>
+    <MediaQuery query="(max-device-width:1224)">
+    <div>you are a tablet or mobile phone</div>
+    </MediaQuery>
+    <MediaQuery query="(orientation:portrait)">
+    <div>you are portrait</div>
+    </MediaQuery>
+    <MediaQuery query="(orientation:landscape)">
+    <div>you are landscape</div>
+    </MediaQuery>
+    <MediaQuery query ="(min-resolution:2dppx)">
+    <div>you are retina</div>
+    </MediaQuery>
+    </div>
+);

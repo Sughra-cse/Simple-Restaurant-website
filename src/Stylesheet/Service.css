@@ -1,0 +1,15 @@
+.maincontainer{
+    display:flex;
+}
+.maincontainer  img{
+    padding:15px;
+    border:1px solid goldenrod;
+} 
+.maincontainer figcaption{
+    padding: 10px;
+}
+h1{
+    text-align:center;
+    background-color:brown;
+    color:whitesmoke;
+}

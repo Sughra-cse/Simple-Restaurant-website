@@ -1,0 +1,16 @@
+.Makeover{
+    /* color:whitesmoke; */
+    
+}
+.Makeover:Hover{
+    cursor: pointer;
+    /* background-color:rebeccapurple; */
+}
+.Makeover ul li{
+    display:inline-block;
+    color:rgba(141, 31, 46, 0.65);
+    padding:20px;
+    background-color: rgba(220, 20, 170, 0.561);
+    font-size: 1.4em;
+
+}
