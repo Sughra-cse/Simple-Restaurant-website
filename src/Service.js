@@ -14,30 +14,30 @@ class Service extends Component{
                 <h2>Here we have some different kind of Food items</h2>
                 <div className="maincontainer">
                 <div>
-                <img src={Cake} width="100px" height="100px" alt="cake"/>
+                <img src={Cake} width="100px" height="100px" onclick="myfuction(this)" alt="cake"/>
                 <figcaption>Deserts</figcaption>
                 </div>
                 <div>
-                <img src={Vegetarian} width="100px" height="100px" alt="vegetarian"/>
+                <img src={Vegetarian} width="100px" height="100px" onclick="myfuction(this)" alt="vegetarian"/>
                 <figcaption>Japanese</figcaption>
                 </div>
                 <div>
-                <img src={Juice} width="100px" height="100px" alt="juice"/>
+                <img src={Juice} width="100px" height="100px" onclick="myfuction(this)" alt="juice"/>
                 <figcaption>Milk Shakes</figcaption>
                 </div>
                 <div>
-                <img src={Mango} width="100px" height="100px" alt="mango"/>
+                <img src={Mango} width="100px" height="100px" onclick="myfuction(this)" alt="mango"/>
                 <figcaption>Ice Cream</figcaption>
                 </div>
                <div>
-               <img src={Panipuri} width="100px" height="100px" alt="panipuri"/>
+               <img src={Panipuri} width="100px" height="100px" onclick="myfuction(this)" alt="panipuri"/>
                <figcaption>chats</figcaption>
                </div>
                <div>
-               <img src={Pizza} width="100px" height="100px" alt="pizza"/>
+               <img src={Pizza} width="100px" height="100px" onclick="myfuction(this)" alt="pizza"/>
                <figcaption>Pizzas</figcaption>
                </div>
-               
+               <img id="imagebox" src={Pizza}/>
             </div> 
             </div>   
         );

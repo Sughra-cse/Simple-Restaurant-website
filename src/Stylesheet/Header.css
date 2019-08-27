@@ -1,16 +1,18 @@
 .Makeover{
-    /* color:whitesmoke; */
-    
+    background-color: rgba(241, 100, 142, 0.993);
+    color:aliceblue;
+    padding-top: 0%;
 }
 .Makeover:Hover{
     cursor: pointer;
-    /* background-color:rebeccapurple; */
+    color: lavenderblush;
 }
 .Makeover ul li{
     display:inline-block;
-    color:rgba(141, 31, 46, 0.65);
     padding:20px;
-    background-color: rgba(220, 20, 170, 0.561);
     font-size: 1.4em;
 
+}
+.Makeover ul li:hover{
+color:lemonchiffon;
 }
